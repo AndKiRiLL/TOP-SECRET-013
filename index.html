@@ -1,0 +1,135 @@
+<!--Created Andriyanov-->
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body">
+
+    <main style="position: relative" id="main">
+        <article>
+            <!--Created Andriyanov-->
+            <div onclick="elem_check()" class="www">
+                <h3 class="www" id="title">Title</h3>
+                <p onclick="elem_check()" class="www">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita atque ex minus optio ipsum velit, nihil nostrum, quod rerum earum id maiores aliquam, cupiditate unde. Molestiae quae illum ducimus impedit?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, quas officiis! Nemo vero pariatur omnis explicabo ipsam, sequi deleniti consequuntur fugit impedit similique possimus reiciendis cupiditate accusamus harum nostrum iusto.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, possimus unde autem voluptatem quasi obcaecati nemo beatae excepturi. Consectetur deserunt assumenda quam, id quas laborum quis repellendus blanditiis sunt magnam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus omnis cum dolorum tempora eum! Assumenda placeat saepe aliquid maiores sed minus accusantium, obcaecati, rerum optio eius corporis ducimus consequuntur molestiae!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas necessitatibus quae quas vitae, nam dolor laudantium itaque praesentium in totam, esse obcaecati illum laborum eaque quaerat sunt nisi illo sequi.
+                </p>
+                
+
+
+                <ol id="list">
+                </ol>
+
+                <ul id="list2">
+                </ul>
+
+                <!--Created Andriyanov-->
+                <div id="parent" style="border: 1px solid black; width: 100px; padding-left: 25px;">
+                    <p id="child">123123123</p>
+                    <button onclick="child_delete()" style="margin-bottom: 15px; margin-top: 15px; margin-left: 5px;">Delete</button>
+                </div>
+
+                <!--Created Andriyanov-->
+                <div id="parent_2" style="border: 1px solid black; width: 100px; margin-top: 25px; padding-right: 25px;">
+                    <ol id="parent2">
+                        <li id="child2">red</li>
+                        <li id="child2">orenge</li>
+                        <li id="child2" class="there">yellow</li>
+                        <li id="child2">green</li>
+                        <li id="child2">blue</li>
+                    </ol>
+                    <button onclick="child_delete_last()" style="margin-bottom: 15px; margin-top: 15px; margin-left: 5px; margin-left: 25px;">Delete</button>
+                </div>
+
+                <!--Created Andriyanov-->
+                <div style="border: 1px solid black; width: 100px; padding-left: 25px; padding-right: 50px; margin-top: 25px;">
+                    <h2 onclick="deleted_elements()" id="deleted_elems_h1">Удаляемые элементы</h2>
+                    <p  onclick="deleted_elements()" style="color: grey;">click to delete</p>
+                    <h3 onclick="deleted_elements()" style="color: grey;">click to delete</p>
+                    <h1 onclick="deleted_elements()" style="color: grey;">click to delete</p>
+                </div>
+
+                <!--Created Andriyanov-->
+                <div style="border: 1px solid black; width: 250px; padding-left: 25px; padding-right: 50px; margin-top: 25px;">
+                    <h3>Удаляемые элементы списка</h3>
+                    <ul id="list_parent">
+                        <li onclick="delete_elements_list()">Первый элемент</li>
+                        <li onclick="delete_elements_list()">Второй элемент</li>
+                        <li onclick="delete_elements_list()">Третий элемент</li>
+                    </ul>
+                </div>
+
+                <!--Created Andriyanov-->
+                <div id="parent_copy" style="display: flex; flex-direction: column; border: 1px solid black; width: 250px; padding-left: 25px; padding-right: 25px; margin-top: 25px;">
+                    <button onclick="copy_element()" style="margin: 15px;">Copy</button>
+                    <input style="margin: 15px;" id="input">
+                </div>
+
+                <div style="display: flex;">
+                    <!--Created Andriyanov-->
+                    <div id="border_block" style="width: 250px; height: 245px; overflow: auto; border: 10px solid #ffaf65; padding: 15px; margin-top: 25px;">
+                        <p style="margin: 0; width: 350px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident sequi reiciendis nulla laboriosam doloribus aliquam minima culpa accusantium accusamus itaque molestiae eveniet distinctio ipsam neque dolorum ipsum totam suscipit!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, facilis. Blanditiis at hic alias perspiciatis amet, minima impedit quae sapiente et ea debitis doloribus est porro ad? Ipsum, consectetur voluptatibus?
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ut molestias perferendis maxime earum dolore voluptatibus tempora est excepturi. Distinctio nisi aut aliquid veniam! Minima quam nesciunt totam necessitatibus amet.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, maxime. Doloremque id quidem laboriosam labore quae cupiditate a, provident assumenda! Dicta aspernatur quis expedita harum quas voluptates nulla quasi dolorum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur qui maxime omnis quis hic dolore architecto adipisci veniam distinctio. Culpa reprehenderit aperiam aut. Consequuntur maiores quasi delectus, fuga officia quos.  
+                        </p>
+                    </div>
+                    <!--Created Andriyanov-->
+                    <div style="padding: 15px;">
+                        <button onclick="show_top_border()" style="width: 275px; margin: 12px;">Показать ширину верхний границы</button> <br>
+                        <button onclick="show_left_border()" style="width: 275px; margin: 12px;">Показать ширину левой границы</button> <br>
+
+                        <button onclick="show_width()" style="width: 275px; margin: 12px;">Показать полную длину блока</button> <br>
+                        <button onclick="show_height()" style="width: 275px; margin: 12px;">Показать полную высоту блока</button> <br>
+                    
+                        <button onclick="show_internal_part_width()" style="width: 275px; margin: 12px;">Показать внутреннию часть (Длина)</button> <br>
+                        <button onclick="show_internal_part_height()" style="width: 275px; margin: 12px;">Показать внутреннию часть (Высота)</button> <br>
+
+                        <button onclick="show_content_size()" style="width: 275px; margin: 12px;">Показать ширину и высоту контента</button>
+                    </div>
+
+                    <!--Created Andriyanov-->
+                    <div style="padding: 15px;">
+                        <button onclick="show_scroll_top()" style="width: 275px; margin: 12px;">Прокрутка элемента вверх</button> <br>
+                        <button onclick="show_scroll_left()" style="width: 275px; margin: 12px;">Прокрутка элемента влево</button> <br>
+                        <button onclick="scroll_top_100px()" style="width: 275px; margin: 12px;">Установить прокрутку вверх на 100px</button> <br>
+                        <button onclick="scroll_plus_100px()" style="width: 275px; margin: 12px;">Прокрутить на 100px вверх</button> <br>
+                        <button onclick="show_real_height()" style="width: 275px; margin: 12px;">Реальная высота с учётом прокрутки</button> <br>
+                        <button onclick="show_real_width()" style="width: 275px; margin: 12px;">Реальная ширина с учётом прокрутки</button> <br>
+                        <button onclick="scroll_bottom_100px()" style="width: 275px; margin: 12px;">Прокрутить вверх на 100px от низа</button> <br>
+                    </div>
+                    
+                    <!--Created Andriyanov-->
+                    <div style="padding: 15px;">
+                        <button onclick="show_page_yoffset()" style="width: 275px; margin: 12px;">Текущая прокрутка страницы сверху</button> <br>
+                        <button onclick="show_page_xoffset()" style="width: 275px; margin: 12px;">Текущая прокрутка страницы слева</button> <br>
+                        <button onclick="window_scroll_300_500()" style="width: 275px; margin: 12px;">Прокрутить страницу на x: 300, y: 500</button> <br>
+                        <button onclick="window_scroll_plus_100()" style="width: 275px; margin: 12px;">Прокрутить страницу на 100px вниз</button> <br>
+                        <button onclick="window_scroll_bottom()" style="width: 275px; margin: 12px;">Прокрутить страницу в самый низ</button> <br>
+                        <button onclick="window_scroll_plus_400px()" style="width: 275px; margin: 12px;">Прокрутить на 400px вниз</button> <br>
+                        <button onclick="check_scroll_bottom()" style="width: 275px; margin: 12px;">Проверка прокрутки страницы до низа</button> <br>
+                    </div>
+
+                </div>
+            </div>
+
+                <div onclick="element_size_2x()" style="width:100px; height: 100px; background-color: #b1b1b1; border-radius: 50px; ">              
+                </div>
+
+
+        </article>
+    </main>
+
+    <!--<script src="./js/workws.js"></script>-->
+    <!--Created Andriyanov-->
+    <script src="./js/homework.js"></script>
+</body>
+</html>
